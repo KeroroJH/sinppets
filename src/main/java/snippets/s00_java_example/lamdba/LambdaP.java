@@ -1,6 +1,7 @@
 package snippets.s00_java_example.lamdba;
 
 import snippets.s00_java_example.vo.Person;
+import java.util.Comparator;
 
 
 public class LambdaP {
