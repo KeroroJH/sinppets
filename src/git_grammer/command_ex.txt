@@ -9,11 +9,24 @@ $ git add 파일
 ## commit
 $ git commit -m "메세지"
 
+## commit 파일 추가 한번에
+$ git commit -am "메세지"
+
+
 ## 원격 저장소 추가
 $ git remote add 별명 원격저장소주소
 
 ## 원격 저장소 게정 변경
 $ git remote set-url 원격저장소별명 https://깃헙사용자명@github.com/깃험사용자명/저장소이름.git
+
+
+## 모든 브랜치 보기
+$ git branch -a
+
+## 원격 저장소 브랜치 따라가기 ( 로컬에 같은 브랜치 만들면서 체크아웃 ) track
+$ git checkout -t remoteName/branchName
+
+
 
 
 
