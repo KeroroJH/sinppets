@@ -26,15 +26,15 @@ $ git branch -a
 ## 원격 저장소 브랜치 따라가기 ( 로컬에 같은 브랜치 만들면서 체크아웃 ) track
 $ git checkout -t remoteName/branchName
 
-
-
-
+##원격 저장소 브랜치 삭제 하기 (merge 후 필요없어진 branch 삭제)
+$ git push remoteName --delete branchName
 
 
 
 
 
 분류	명령어	내용 설명
+<새로운 원격 저장소 명령어 초기화>	$ git init --bare
 <새로운 저장소 생성>	$ git init	.git 하위 디렉토리 생성
 (폴더를 만든 후, 그 안에서 명령 실행 => 새로운 git저장소 생성)
 <저장소 복제/다운로드(clone)>	$ git clone <https:.. URL>	기존 소스 코드 다운로드/복제
