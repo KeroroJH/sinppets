@@ -33,4 +33,6 @@ let init_v = 42;
 //10진수 3진수로 변환
 let v1 = make10to3(init_v);
 console.log("10=>3 ",init_v," and ",v1.join("") );
+//pull_check
+console.log("10=>3 ",init_v," and ",v1.join("") );
 

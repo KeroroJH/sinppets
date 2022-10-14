@@ -21,4 +21,6 @@ const solution = (arr , count) => {
 }
 
 console.log(solution(arrayValue,countValue));
+//pull_check
+console.log(solution(arrayValue));
 
